@@ -4,9 +4,7 @@ pipeline {
     stages {
         stage("build") {
             steps {
-                pwd
-                echo "Building the application.."
-                ls -ltr
+                pwd && echo "Building the application.."
             }
         }
 
